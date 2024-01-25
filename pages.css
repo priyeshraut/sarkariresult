@@ -1,0 +1,132 @@
+/* LatestJob Page */
+
+.nav-txt {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.home-link {
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.pages-link {
+    display: flex;
+    gap: 5rem;
+}
+
+.fb-page-link {
+    display: flex;
+    justify-content: center;
+    border: none !important;
+}
+
+/* Answerkey page */
+
+.result-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.result-text p:first-child {
+    font-size: 3rem;
+    margin: 1.5rem 0;
+}
+
+/* Search page */
+
+.search  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2.5;
+}
+
+.search > h1 {
+    font-size: 5rem;
+    color: #ab183d;
+}
+
+.search input {
+    width: 40rem;
+    padding: 1.3rem 2rem;
+}
+
+.search button {
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+    background-color: #496bcd;
+    padding: 1.3rem 1rem;
+    border: none;
+}
+
+.search-txt a {
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.search-intro .intro-content {
+    padding: 3rem;
+}
+
+.search-intro .intro-content ul {
+    text-align: left;
+}
+
+
+/* Contact Page */
+
+.contact-link div {
+    text-align: center;
+}
+
+.contact-link .contact-txt {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: orangered;
+    padding: 2rem;
+    border: none;
+}
+
+.contact-link .contact-txt ul {
+    font-size: 1rem;
+}  position: relative;
+
+
+/* tooltrip */
+
+.tooltrip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltrip .tolltriptext {
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 23.3%;
+    margin-top: 1.3rem;
+    border-top: 1px solid white;
+}
+
+.tooltrip .tolltriptext span  {
+    padding: 1rem 2rem;
+    border-bottom: 1px solid white;
+}
+
+.tooltrip .tolltriptext span:hover {
+    background-color: #366b92;
+}
+
+.tooltrip:hover .tolltriptext {
+    visibility: visible;
+}
+
+

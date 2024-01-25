@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Inter', 'Poppins', 'Roboto', sans-serif;
+    margin: .5rem 17rem;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    background-color: #ab183d;
+    padding: 2rem; 
+}
+
+header .header-txt {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    display: block;
+    margin: auto;
+} 
+
+/* Navbar */
+
+nav {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white; 
+    border-right: .1rem solid white; 
+    padding: 1.3rem;
+    flex-basis: 30rem;
+    text-align: center;
+}
+
+nav a:hover {
+    color: orangered;
+}
+
+nav a:last-child {
+    border: none;
+}
+
+/* Content */
+
+.content-txt {
+    text-align: center;
+}
+
+.content-txt h1 {
+    font-size: 1.9rem;
+    margin-top: 2rem;
+}
+
+.content-txt p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff0000;
+    margin: 2rem 0;
+}
+
+.content-txt a {
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.content-txt span {
+    font-size: 1.5rem;
+}
+
+.content {
+    margin-bottom: 5rem;
+}
+
+/* Job */
+
+.job p {
+    font-size: 1.2rem;
+    background-color: #0080ff;
+    border: none;
+    padding: .3rem 2rem;
+    border-radius: 1.5rem;
+    text-align: center;
+    width: 20rem;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+
+.job p a {
+    text-decoration: none;
+    color: white;
+}
+
+.job p:hover {
+    background-color: #ff00bfc4;
+}
+
+.job-text {
+    background-color: #0000a0;
+    padding: 0.5rem;
+    width: 40rem;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 0.6rem;
+}
+
+.job-text a {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.job-list, .job-list-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.job-list a, .job-list-2 a{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: .8rem;
+    margin: .5rem;
+    width: 30rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.job-list a:nth-child(1) {
+    background-color: blue;
+}
+.job-list a:nth-child(2) {
+    background-color: rgb(53, 117, 53);
+}
+.job-list a:nth-child(3) {
+    background-color: red;
+}
+.job-list a:nth-child(4) {
+    background-color: rgb(100, 100, 84);
+}
+
+.job-list-2 a:nth-child(1) {
+    background-color: brown;
+}
+
+.job-list-2 a:nth-child(2) {
+    background-color: pink;
+}
+
+.job-list-2 a:nth-child(3) {
+    background-color: rebeccapurple;
+}
+
+.job-list-2 a:nth-child(4) {
+    background-color: gray;
+}
+
+/* Job Links */
+
+ .link-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    width: 90%;
+    margin: 5rem auto;
+}
+
+.link-section div, .intro-section {
+    border: .2rem solid #fb0303;
+}
+
+.link-section div ul {
+    display: grid;
+    grid-gap: 1rem;
+    margin: 2.5rem;
+    font-size: 1.5rem;
+}
+
+.link-section div h1, .intro-section h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    background-color: #ab183d;
+    color: white;
+    padding: 0.3rem;
+}
+
+.link-section div a {
+    font-size: 1.5rem;
+}
+
+.link-section div .view-more {
+    color: #0000a0;
+    font-weight: bold;
+    float: right;
+    text-decoration: none;
+    margin: 0 2rem .5rem 0;
+}
+
+.link-section .admission {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+/* DMCA Image */
+
+.dmca-img {
+    display: flex;
+    justify-content: center ;
+    margin-bottom: 5rem;
+}
+
+/* Introduction */
+
+.intro-section .intro-content {
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 2rem;
+    display: grid;
+    grid-gap: 3rem;
+}
+
+.intro-section .intro-content .intro-content-inner {
+    text-align: left;
+    display: grid;
+    grid-gap: 3rem;
+}
+
+.intro-content-list {
+    margin-left: 2rem;
+}
+
+/* Footer */
+
+footer {
+    display: grid;
+    grid-gap: 3rem;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 5rem 0 0 5rem;
+}
+
+footer a {
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.678);
+    text-decoration: none;
+    line-height: 1.5;
+    display: flex;
+}
+
+footer h1 {
+    margin-bottom: 2rem;
+}
+
+footer div:nth-child(4), footer div:nth-child(5) {
+    margin-top: 4rem;
+}
